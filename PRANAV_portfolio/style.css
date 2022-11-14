@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+   
+    background-image: url(img/unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .text-center
+  {
+    text-align: center;
+  }
+  li a {
+    display: block;
+   color: white;
+    text-align: center;
+    font-size: 17px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #0d5740;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    transition: 500ms;
+   
+  }
+  .flex
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .flex-row
+  {
+    flex-direction: row;
+  }
+  .white
+  {
+    color: white;
+  }
+  .main{
+    margin: 40.6vh auto; 
+  }
+  #name
+  {
+    color: #fff;
+    line-height: 1;
+    margin: auto;
+    font-size: 39px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    
+  }
+  .main h3
+  {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  @media screen and (max-width: 465px)
+  {
+    body
+    {
+      background-image: url(img/unnamed\ -\ Copy.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+  }
