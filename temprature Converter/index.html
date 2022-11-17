@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main flex ">
+    <form id="tempCalc" onsubmit="calculateTemp(); return false" >
+       <div class="flex-child">
+        <p id="et" ><span id="icon" class="fa fa-thermometer-2"> </span> Temprature Converter </p>
+        
+       
+       </div>
+       <div class="flex-child" style="margin: left 0;">
+        
+        <input required type="number" name="temp" id="temp" >
+
+
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel">Celsius</option>
+            <option value="fah">Fahrenheit</option>
+        </select>
+       </div>
+       <div class="flex-child"  style="margin:0rem 7rem;">
+        <button id="btn" type="submit" name="temp">CONVERT</button>
+        <br>
+        <span id="result"></span>
+       </div>
+
+
+    </form>
+</div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/Image\ 2.png);
+    background-size: contain;
+    
+    display: grid;
+    place-items: center;
+   
+    background-repeat: round;
+}
+.flex
+{
+    display: flex;
+}
+.flex-child
+{
+    flex-direction: column;
+   margin: auto;
+}
+.main
+{
+    padding: 50px 40px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to left, #000000, #220013, #31002a, #35004b, #0f0076);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#btn
+{
+    padding:7px 13px;
+    margin: 8px 0; 
+    border: none ;
+    font-size: 16px;
+    border-radius: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #0050fd;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+}
+#icon
+{
+    margin-right: 5px;
+    font-size: 30px;
+}
+#temp_diff
+{
+    padding: 5px 2px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 1rem;
+    border: none;
+    
+}
+#temp
+{
+    padding: 5px 7px;
+    margin: 10px 10px;
+    border-radius: 1rem;
+    
+    text-align: center;
+}
+#et
+{
+    margin: 0 11px;
+    font-size: 22px;
+    font-weight: 700;
+   color:  white;
+    line-height: 120%;
+    
+}
+#result
+{
+    font-size: 20px;
+    color: white;
+   
+}
